@@ -1,0 +1,53 @@
+body {
+    font-family: Montserrat;
+    background-color:  #030027;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    max-width: 50%;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #433d8d;
+}
+
+.container__title{
+    margin: 0;
+}
+
+.container__usuario__title{
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+.btn {
+    margin-top: 20px;
+    background-color: #433d8d;
+    border: 3px solid #433d8d;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s; 
+    
+
+}
+
+
+.btn:hover {
+    background-color: transparent; 
+    color: #433d8d;
+}
+
+.btn__text{
+    margin: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 600;
+}
