@@ -10,6 +10,7 @@ body {
 .container {
     max-width: 50%;
     margin: 100px auto;
+    margin-bottom: 20px;
     background-color: #fff;
     padding: 50px;
     border-radius: 8px;
@@ -50,4 +51,14 @@ body {
     text-transform: uppercase;
     font-family: Montserrat;
     font-weight: 600;
+}   
+
+.description__tarea{
+    margin: auto;
+    width: 50%;
+    background-color: #433d8d;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
 }
