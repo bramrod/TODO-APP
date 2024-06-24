@@ -8,7 +8,7 @@ body {
 
 
 .container {
-    max-width: 50%;
+    max-width: 30%;
     margin: 100px auto;
     margin-bottom: 20px;
     background-color: #fff;
@@ -26,9 +26,14 @@ body {
     margin-bottom: 0;
 }
 
+.container__usuario__descripcion{
+    font-weight: 500;
+    font-size: 17px;
+}
+
 
 .btn {
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #433d8d;
     border: 3px solid #433d8d;
     padding: 10px 20px;
@@ -40,7 +45,6 @@ body {
 
 }
 
-
 .btn:hover {
     background-color: transparent; 
     color: #433d8d;
@@ -50,15 +54,52 @@ body {
     margin: 3px;
     text-transform: uppercase;
     font-family: Montserrat;
-    font-weight: 600;
+    font-weight: 500;
 }   
 
-.description__tarea{
-    margin: auto;
-    width: 50%;
-    background-color: #433d8d;
-    padding: 10px;
+.descripcion__tarea {
+    display: flex;
+}
+
+.descripcion__tarea__text{
+    width: 100%;
+    font-family: montserrat;
+    margin: 15px 0;
+    border: 2px solid #433d8d;
+    outline: none;
     border-radius: 8px;
+    padding: 15px;
+    color: #030027;  
     font-weight: 600;
+    font-size: 16px;
+}
+
+.fas.fa-plus{
+    padding: 10px;
+    margin: auto 20px;
     color: #fff;
+    background-color: #433d8d;
+    border-radius: 50%;
+    
+}
+
+.seccion-tarea{
+    margin: auto;
+    max-width: 40%;
+    color: #fff;
+
+}
+
+.seccion-tarea li {
+    max-width: 70%;
+    margin: auto 130px;
+    text-align: center;
+    display: flex;
+    background-color: #433d8d;
+    border-radius: 8px;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;  
+    font-size: 20px;
 }
