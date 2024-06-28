@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addTask = function () {
         const taskText = taskInput.value.trim();
         if (taskText === '') {
-            alert('Por favor, introduce una tarea.');
+            alert('Wey, escribe una tarea boludo.');
             return;
         }
 
